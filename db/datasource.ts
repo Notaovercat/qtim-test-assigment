@@ -13,8 +13,8 @@ export const options: DataSourceOptions = {
 	username: configService.get("POSTGRES_USER"),
 	password: configService.get("POSTGRES_PASSWORD"),
 	database: configService.get("POSTGRES_DB"),
-	entities: ["dist/**/*.entity.js"],
-	migrations: ["dist/migrations/*.js"],
+	entities: ["dist/src/**/*.entity.js"],
+	migrations: ["dist/db/migrations/*.js"],
 };
 
 const dataSource = new DataSource(options);

@@ -26,6 +26,6 @@
 			"@app/*": ["./src/app/*"]
 		}
 	},
-	"include": ["src", "migrations"],
+	"include": ["src", "db"],
 	"exclude": ["node_modules", "dist"]
 }
