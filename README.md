@@ -41,7 +41,7 @@ docker-compose up -d
 ```
 ### Запуск миграций
 ```bash
-pnpm run migration:generate
+pnpm run migration:generate migrations/init
 pnpm run migration:run
 ```
 ### Запуск в dev режиме
