@@ -39,6 +39,11 @@ POSTGRES_DB=nestjs
 ```bash
 docker-compose up -d
 ```
+### Запуск миграций
+```bash
+pnpm run migration:generate
+pnpm run migration:run
+```
 ### Запуск в dev режиме
 ```bash
 pnpm run start:dev
