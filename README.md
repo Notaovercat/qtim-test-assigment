@@ -1,6 +1,6 @@
 [![My Skills](https://skillicons.dev/icons?i=nodejs,nestjs,postgres,redis)](https://skillicons.dev)
-# QTIM-test
-Тестовое задание на позицию  Node.js Разработчика в QTIM
+# QTIM-Test-Assigment
+Тестовое задание для Middle NestJS разработчика в QTIM
 
 ## Подготовка
 ### Требования
